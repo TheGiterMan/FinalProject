@@ -1,3 +1,4 @@
+<%-- comment --%>
 <%
     if (request.getParameter("level") != null && request.getParameter("ini_len") != null) {
         int $level = 1;
