@@ -1,9 +1,0 @@
-version: '3.3'
-services:
-    tomcat:
-        container_name: tomcat
-        ports:
-            - '8888:8080'
-        volumes:
-            - '/home/getesh/Desktop/HIT/DEVOPS/Project/Getesh:/usr/local/tomcat/webapps/status'
-        image: 'tomcat:9.0'
