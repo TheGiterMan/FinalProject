@@ -376,7 +376,7 @@
                         food.style.top = food_position[1] + 'px';
                     }
                     
-                    game_stat_left.innerHTML = 'Score: ' + game_score;
+                    game_stat_left.innerHTML = 'ScoreDevops: ' + game_score;
                     game_stat_right.innerHTML = 'Level: ' + (game_level + 1);
                 
                     // Add or modify snake blocks on each event
